@@ -4,10 +4,10 @@ const fs = require('fs')
 
 //get request
 router.get('/api/notes', async (req, res) =>{
-    try {
-        const filePath = path.join(__dirname, 'db', 'db.json'); 
-        const dbJson = JSON.parse(fs.readFileSync(filePath)); 
-        res.json(dbJson);
+  try {
+    const filePath = path.join(__dirname, 'db', 'db.json');
+    const dbJson = await JSON.parse(fs.readFileSync(filePath));
+    res.json(dbJson);
       } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
