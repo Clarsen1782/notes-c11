@@ -1,6 +1,6 @@
 const express = require('express');
-const index_routes = require('./routes/html')
-const api_routes = require('./routes/api')
+const index_routes = require('./html')
+const api_routes = require('./api')
 
 const PORT = 3001;
 
