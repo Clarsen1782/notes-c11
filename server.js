@@ -3,7 +3,7 @@ const api_routes = require('./api');
 const index_routes = require('./html');
 
 
-const PORT = 3001;
+const PORT = process.env.Port || 3001;
 
 const app = express();
 
