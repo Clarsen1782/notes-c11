@@ -24,9 +24,11 @@ Deployed link for [Express.js: Note Taker](https://notes-c11-41cccd7ba73f.heroku
 4.	Then add any extra information for the note in the text porton below the title.
 5.	Click Save Note on the top right hand side of the screen (next to the scroll bar).
 6.  You will see the note added to the list on the left hand side of the screen.
+        * When you have finished with a note clock the red trash can and it will be deleted.
 
 <img src="./public/assets/Images/newnote.png" alt="New Note Screen" width="400"/>
 <img src="./public/assets/Images/savednote.png" alt="Saved Note Screen" width="400"/>
+<img src="./public/assets/Images/Delete.png" alt="Deleted Note Screen" width="400"/>
 
 
 ## Credits
